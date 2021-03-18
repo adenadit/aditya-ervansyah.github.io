@@ -1,19 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" />
     <title>Aditya Ervansyah</title>
-</head>
-<body>
-    <h2>Wellcome to Aditya Ervansyah Website</h2>
-    <ul>
-        <li><a href="#"><img src="pict/facebook.png" alt=""></a></li>
-        <li><a href="#"></a><img src="pict/instagram.png" alt=""></li>
-        <li><a href="#"><img src="pict/twitter.png" alt=""></a></li>
-    </ul>
-    
-</body>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">Aditya Ervansyah</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="pict/profil.jpg.jpg" alt="Aditya Ervansyah" width="200" height="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Aditya Ervansyah</h1>
+      <p class="lead">Mahasiswa|Programmer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="1"
+          d="M0,288L48,282.7C96,277,192,267,288,229.3C384,192,480,128,576,122.7C672,117,768,171,864,165.3C960,160,1056,96,1152,80C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, deleniti necessitatibus molestiae explicabo dignissimos temporibus veritatis! Sequi sit magnam sunt!</p>
+          </div>
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsum error esse officia inventore similique laborum facilis, ipsam, ducimus maiores, distinctio asperiores iure quo quis?</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,160L48,165.3C96,171,192,181,288,186.7C384,192,480,192,576,176C672,160,768,128,864,117.3C960,107,1056,117,1152,149.3C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir about -->
+
+    <!-- Project -->
+    <section id="project">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="pict/project/1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="pict/project/2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="pict/project/3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="pict/project/4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="pict/project/5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir project -->
+
+    <!-- contact -->
+
+    <!-- akhir contact -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
 </html>
